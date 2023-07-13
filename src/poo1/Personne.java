@@ -1,8 +1,9 @@
 package poo1;
 
-public class Personne {
-    String nom;
+public abstract class Personne {
+    private String nom;
     String postnom;
+    private int salaire = 200;
     int age;
     public Personne(String name, String second_name, int age){
         this.nom = name;
