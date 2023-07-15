@@ -1,4 +1,5 @@
 package poo1;
+import java.util.Scanner;
 
 class POO1 {
 
@@ -13,7 +14,13 @@ class POO1 {
         //baraka.estInscrit();
         //espoir.courir();
         //System.out.print(baraka.matricule);
+        
         baraka.estInscrit();
         rire();
+        
+        Scanner saisie = new Scanner(System.in);
+        System.out.println("Saisi votre nom");
+        String nom = saisie.nextLine();
+        System.out.println("Votre nom est :"+nom);
     }
 }
