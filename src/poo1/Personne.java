@@ -14,8 +14,8 @@ public class Personne {
         this.prenom = third_name;
     }
 
-    public void manger() {
-        System.out.print(this.nom + " " + this.postnom + " " + this.prenom + " est un vegetarien");
+    public void manger(String gout) {
+        System.out.print(this.nom + " " + this.postnom + " " + this.prenom + " mange "+gout);
     }
     
     static void courir(){
