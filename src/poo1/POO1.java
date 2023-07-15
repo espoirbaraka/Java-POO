@@ -4,6 +4,8 @@ class POO1 {
 
     public static void main(String[] args) {
         Personne espoir = new Personne("BARAKA","BIGEGA","ESPOIR");
-        espoir.manger();
+        Etudiant baraka = new Etudiant("BARAKA","BIGEGA","ESPOIR","18IGGJ007672");
+        //espoir.manger();
+        baraka.estInscrit();
     }    
 }
