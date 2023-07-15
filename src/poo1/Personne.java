@@ -1,6 +1,6 @@
 package poo1;
 
-public class Personne { 
+public abstract class Personne { //Abstract veut dire que cette classe ne peut pas etre instancié(On ne peut pas créer des objets avec cette classe). Pour acceder à cette classe, elle doit être héritée
 
     String nom;
     String postnom;
