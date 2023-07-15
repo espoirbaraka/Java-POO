@@ -2,7 +2,7 @@ package poo1;
 
 public abstract class Personne { //Abstract veut dire que cette classe ne peut pas etre instancié(On ne peut pas créer des objets avec cette classe). Pour acceder à cette classe, elle doit être héritée
 
-    String nom;
+    private String nom;
     String postnom;
     String prenom;
     String datenaiss;
@@ -12,6 +12,13 @@ public abstract class Personne { //Abstract veut dire que cette classe ne peut p
         this.nom = name;
         this.postnom = second_name;
         this.prenom = third_name;
+    }
+    
+    public String getNom(){
+        return nom;
+    }
+    public void setNom(String newNom){
+        this.nom = newNom;
     }
 
     public void manger(String gout) {

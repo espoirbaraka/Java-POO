@@ -13,7 +13,7 @@ class POO1 {
         //baraka.estInscrit();
         //espoir.courir();
         //System.out.print(baraka.matricule);
-
+        baraka.estInscrit();
         rire();
     }
 }

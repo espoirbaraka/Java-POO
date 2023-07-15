@@ -8,6 +8,6 @@ public final class Etudiant extends Personne { //Final veut dire qu'aucune autre
         this.matricule = matr;
     }
     public void estInscrit(){
-        System.out.print(nom+" est deja inscrit");
+        System.out.print(getNom()+" est deja inscrit");
     }
 }
