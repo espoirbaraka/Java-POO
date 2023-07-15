@@ -1,17 +1,18 @@
 package poo1;
 
-public abstract class Personne {
-    private String nom;
+public class Personne {
+    String nom;
     String postnom;
-    private int salaire = 200;
-    int age;
-    public Personne(String name, String second_name, int age){
+    String prenom;
+    String datenaiss;
+    String lieunaiss;
+    
+    public Personne(String name, String second_name, String third_name){
         this.nom = name;
         this.postnom = second_name;
-        this.age = age;
+        this.prenom = third_name;
     }
-    public void parler(){
-        System.out.println(this.nom+" parle");
+    public void manger(){
+        System.out.print(this.nom+" "+this.postnom+" "+this.prenom+" est un vegetarien");
     }
-    
 }
