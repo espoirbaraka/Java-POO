@@ -1,6 +1,6 @@
 package poo1;
 
-public class Personne {
+public class Personne { 
 
     String nom;
     String postnom;
