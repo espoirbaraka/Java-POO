@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Fichier {
     public static void main(String[] args){
         try{
-            File monfichier = new File("E:\\JAVA\\POO1\\monfichier1.txt");
+            File monfichier = new File("E:\\JAVA\\POO1\\monfichier1.xlsx");
             if(monfichier.createNewFile()){
                 System.out.println("Le fichier "+monfichier.getName()+" a été crée");
             }else{
