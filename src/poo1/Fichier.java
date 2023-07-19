@@ -3,7 +3,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class Fichier {
-    public static void main(String[] args){
+    
+    public static void main(String[] args){    
         try{
             File monfichier = new File("E:\\JAVA\\POO1\\monfichier1.xlsx");
             if(monfichier.createNewFile()){
@@ -17,3 +18,5 @@ public class Fichier {
         }
     }
 }
+    
+ 
