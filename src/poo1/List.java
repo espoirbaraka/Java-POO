@@ -7,7 +7,10 @@ public class List {
         cars.add("TX");
         cars.add("TOYOTA");
         System.out.println(cars);
-        cars.remove("TOYOTA");
+        cars.remove(cars.set(0,"BUS"));
         System.out.println(cars);
+        for(int i = 0; i<cars.size(); i++){
+            System.out.println(cars.get(i));
+        }
     }
 }
