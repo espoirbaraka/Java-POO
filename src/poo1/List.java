@@ -16,5 +16,20 @@ public class List {
         for(int i = 0; i<cars.size(); i++){
             System.out.println(cars.get(i));
         }
+        int[] nombre = {2,6,7,7};
+        try{
+            System.out.println(nombre[2]);
+        }catch(Exception e){
+            System.out.println("Il y a un souci");
+        }
+        
+        age(2);
+    }
+    public static void age(int age){
+        if(age<18){
+            throw new ArithmeticException("Pas cette age");
+        }else{
+            System.out.println("Super");
+        }
     }
 }
