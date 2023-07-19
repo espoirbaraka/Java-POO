@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package poo1;
-
-/**
- *
- * @author ESPOIR
- */
+import java.util.Scanner;
+import java.time.LocalDate;
 public class Lire {
-    
+   public static void main(String[] args){
+       Scanner myobj = new Scanner(System.in);
+       LocalDate date= LocalDate.now();
+       System.out.println("Saisissez votre nom");
+       String monnom= myobj.nextLine();
+       System.out.println("Saisissez le premier nombre");
+       int nbre1= myobj.nextInt();
+       System.out.println("Saisissez votre nom");
+       int nbre2= myobj.nextInt();
+       int somme = nbre1+nbre2;
+       System.out.println("Mon nom est : "+monnom+" et "+nbre1+" + "+nbre2+" = "+somme);
+       System.out.println("Il est "+date);
+   } 
 }
