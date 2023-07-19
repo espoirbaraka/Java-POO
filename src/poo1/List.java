@@ -6,5 +6,8 @@ public class List {
         cars.add("VOLVO");
         cars.add("TX");
         cars.add("TOYOTA");
+        System.out.println(cars);
+        cars.remove("TOYOTA");
+        System.out.println(cars);
     }
 }
